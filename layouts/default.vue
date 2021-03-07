@@ -1,11 +1,25 @@
 <template>
   <div>
+    <AppHeader />
     <Nuxt />
+    <AppFooter />
   </div>
 </template>
 
+<script>
+import AppHeader from '@/components/AppHeader'
+import AppFooter from '@/components/AppFooter'
+
+export default {
+  components: {
+    AppHeader,
+    AppFooter,
+  }
+}
+</script>
+
 <style>
-html {
+/* html {
   font-family:
     'Source Sans Pro',
     -apple-system,
@@ -58,5 +72,5 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
-}
+} */
 </style>
