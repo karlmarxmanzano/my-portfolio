@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-primary w-full absolute top-0">
+  <div class="bg-primary w-full absolute top-0 dark:bg-night-dark">
     <header class="max-w-5xl mx-auto">
       <div class="flex items-center justify-between h-24">
         <Logo />

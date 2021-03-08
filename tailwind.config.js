@@ -6,7 +6,7 @@ module.exports = {
     './plugins/**/*.{js,ts}',
     './nuxt.config.{js,ts}',
   ],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
@@ -24,10 +24,15 @@ module.exports = {
           dark: '#E3B341',
         },
         light: {
-          light: '#6B7280',
+          light: '#8892B0',
           DEFAULT: '#6B7280',
           dark: '#6B7280',
-        }
+        },
+        night: {
+          light: '#293F54',
+          DEFAULT: '#192734',
+          dark: '#15202B'
+        },
       }
     }
   },

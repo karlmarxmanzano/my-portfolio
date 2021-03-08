@@ -4,9 +4,9 @@
       <div class="flex flex-col items-start justify-center min-h-screen py-28">
         <div class="text-5xl mb-4">👋</div>
 
-        <h1 class="text-7xl font-bold mb-8">I can make your ideas real in <span class="text-primary">the web!</span></h1>
+        <h1 class="text-7xl font-bold mb-8 dark:text-blue-100">I can make your ideas real in <span class="text-primary dark:text-accent">the web!</span></h1>
 
-        <p class="text-base text-light w-6/12 text-break mb-8">
+        <p class="text-base text-light w-6/12 text-break mb-8 dark:text-light-light">
           I'm a web developer based in Philippines Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic aut voluptate esse nobis amet eaque atque minus quo vel maxime sunt, soluta, iusto corporis.
         </p>
 
@@ -29,7 +29,7 @@
           <img src="~/assets/images/img-placeholder.jpg" alt="" style="box-shadow: -10px -10px 0 #E3B341;">
         </div>
 
-        <div class="flex flex-col justify-center">
+        <div class="flex flex-col justify-center dark:text-light-light">
           <p class="mb-6">Hi! I am Karl, a web developer based in the Philippines. Mabuhay!</p>
 
           <p class="mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed porro, culpa delectus fugiat eveniet harum totam obcaecati eligendi magnam, provident quod sunt repellendus aut consectetur aliquam dolorem ad dolores.</p>

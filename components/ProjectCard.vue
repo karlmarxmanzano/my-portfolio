@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-primary-light border-0 rounded-md h-72 w-fill px-5 py-4 flex flex-col cursor-pointer transform transition hover:-translate-y-0.5">
+    <div class="bg-primary-light border-0 rounded-md h-72 w-fill px-5 py-4 flex flex-col cursor-pointer transform transition hover:-translate-y-0.5 dark:bg-night-light">
       <div class="flex gap-x-2 py-2 h-1/6 text-gray-900">
         <div class="locked h-5 w-5">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" /></svg>
@@ -16,13 +16,13 @@
       </div>
 
       <div class="h-4/6">
-        <p class="uppercase text-white font-bold tracking-wider text-lg mb-4">Google Keep Clone</p>
-        <p class="text-sm text-blue-100">A simple Google Keep clone built with Vue and Firebase</p>
+        <p class="uppercase text-white font-bold tracking-wider text-lg mb-4 dark:text-blue-100">Google Keep Clone</p>
+        <p class="text-sm text-blue-100 dark:text-light-light">A simple Google Keep clone built with Vue and Firebase</p>
       </div>
 
       <div class="h-1/6 flex gap-x-2 items-end">
-        <span class="text-xs uppercase text-blue-400 font-mediu">VueJs</span>
-        <span class="text-xs uppercase text-blue-400 font-mediu">Firebase</span>
+        <span class="text-xs uppercase text-blue-400 dark:text-light-light">VueJs</span>
+        <span class="text-xs uppercase text-blue-400 dark:text-light-light">Firebase</span>
       </div>
     </div>
   </div>

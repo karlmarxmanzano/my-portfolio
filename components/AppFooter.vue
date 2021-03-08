@@ -4,7 +4,7 @@
 
     </div>
 
-    <div class="bg-primary-dark">
+    <div class="bg-primary-dark dark:bg-night-dark">
       <div class="text-blue-100 max-w-5xl mx-auto">
         <div class="grid grid-cols-3 gap-x-8 py-10">
           <Logo />
@@ -31,7 +31,7 @@
         </div>
 
         <div class="pb-3">
-          <p class="text-sm text-center text-gray-900">Copyright © 2020 Karl Marx Manzano</p>
+          <p class="text-sm text-center text-gray-900 dark:text-light">Copyright © 2021 Karl Marx Manzano</p>
         </div>
       </div>
     </div>

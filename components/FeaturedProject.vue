@@ -2,17 +2,17 @@
   <div class="grid grid-cols-2 gap-x-16">
     <div class="flex flex-col justify-center space-y-4" :class="{'reverse-info': reverse}">
       <div>
-        <div class="text-primary uppercase font-medium tracking-widest text-sm">Featured Project</div>
-        <div class="font-bold text-3xl">Trello Clone</div>
+        <div class="text-primary uppercase font-medium tracking-widest text-sm dark:text-accent">Featured Project</div>
+        <div class="font-bold text-3xl dark:text-blue-100">Trello Clone</div>
       </div>
 
-      <div class="text-sm text-light md:w-4/5">
+      <div class="text-sm text-light md:w-4/5 dark:text-light-light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sed suscipit libero voluptatibus quos. Accusamus officia, est obcaecati tempore vitae adipisci consectetur magni, atque quas ex omnis quasi id sint.
       </div>
 
       <div class="flex justify-between">
-        <div class="flex space-x-3">
-          <div class="text-xs uppercase ">VueJS</div>
+        <div class="flex space-x-3 dark:text-light-light">
+          <div class="text-xs uppercase">VueJS</div>
           <div class="text-xs uppercase">TailwindCSS</div>
         </div>
 

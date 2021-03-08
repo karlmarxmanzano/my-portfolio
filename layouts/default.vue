@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="dark:bg-night">
     <AppHeader />
     <Nuxt />
     <AppFooter />
