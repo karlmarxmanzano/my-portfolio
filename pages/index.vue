@@ -32,7 +32,7 @@
 
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed porro, culpa delectus fugiat eveniet harum totam obcaecati eligendi magnam, provident quod sunt repellendus aut consectetur aliquam dolorem ad dolores.</p>
 
-          <p>Let's work together! <br class="block sm:hidden">Download <a href="#" class="text-primary rounded border border-dashed border-primary-light cursor-pointer py-1 px-2 ml-1 leading-10 sm:leading-normal hover:bg-primary hover:text-white transition-all">resume</a></p>
+          <p>Let's work together! <br class="block sm:hidden">Download <a href="#" class="text-primary rounded border border-dashed border-primary-light cursor-pointer py-1 px-2 ml-1 leading-10 sm:leading-normal hover:bg-primary hover:text-white transition-all dark:border-light-light dark:text-light-light dark:hover:bg-light-light dark:hover:text-night-dark">resume</a></p>
         </div>
       </div>
     </app-section>
