@@ -13,8 +13,15 @@
         <call-to-action :is-rounded="true" class=" self-start">Get in touch</call-to-action>
 
         <div class="w-10 h-1 absolute bottom-24 right-2/4">
-          <svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg" width="29" height="55" viewBox="0 0 29 55" fill="currentColor"><g transform="translate(-421 -510)"><g transform="translate(421 510)" fill="none" stroke="#000" stroke-width="3"><rect width="29" height="55" rx="14.5" stroke="none"/><rect x="1.5" y="1.5" width="26" height="52" rx="13" fill="none"/></g><circle cx="7.5" cy="7.5" r="7.5" transform="translate(428 516)"/></g></svg>
+          <div class="dark:hidden">
+            <svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg" width="29" height="55" viewBox="0 0 29 55"><g transform="translate(-421 -510)"><g transform="translate(421 510)" fill="none" stroke="#192734" stroke-width="3"><rect width="29" height="55" rx="14.5" stroke="none"/><rect x="1.5" y="1.5" width="26" height="52" rx="13" fill="none"/></g><circle cx="7.5" cy="7.5" r="7.5" transform="translate(428 516)" fill="#192734"/></g></svg>
+          </div>
+
+          <div class="hidden dark:block">
+            <svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg" width="30" height="55" viewBox="0 0 30 55"><g transform="translate(-421 -510)"><g transform="translate(421 510)" fill="none" stroke="#c5e3ff" stroke-width="5"><rect width="30" height="55" rx="15" stroke="none"/><rect x="2.5" y="2.5" width="25" height="50" rx="12.5" fill="none"/></g><circle cx="6" cy="6" r="6" transform="translate(430 521)" fill="#c5e3ff"/></g></svg>
+          </div>
         </div>
+
       </div>
     </div>
 
