@@ -1,6 +1,6 @@
 <template>
-  <div class="max-w-7xl mx-auto mt-32 mb-44">
-    <div v-if="title" class="text-center text-primary uppercase tracking-widest font-bold text-3xl section-title mb-24">{{ title }}</div>
+  <div class="max-w-5xl mx-auto py-24 relative">
+    <p v-if="title" class="section-title text-center text-primary uppercase tracking-widest font-bold text-3xl mb-20">{{ title }}</p>
 
     <slot></slot>
   </div>
@@ -19,14 +19,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  // .section-title {
-  //   &::after {
-  //     display: block;
-  //     margin: 0 auto;
-  //     content: '';
-  //     height: 2px;
-  //     width: 35px;
-  //     background-color: #003C8F;
-  //   }
-  // }
+
 </style>

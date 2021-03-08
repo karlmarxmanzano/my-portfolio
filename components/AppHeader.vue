@@ -1,6 +1,6 @@
 <template>
   <div class="bg-primary w-full absolute top-0">
-    <header class="max-w-7xl mx-auto">
+    <header class="max-w-5xl mx-auto">
       <div class="flex items-center justify-between h-24">
         <Logo />
 

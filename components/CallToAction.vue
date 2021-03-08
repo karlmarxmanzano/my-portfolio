@@ -1,6 +1,6 @@
 <template>
-  <button 
-    class="bg-accent px-6 py-3 rounded"
+  <button
+    class="bg-accent px-6 py-3 rounded transform transition hover:-translate-y-0.5 focus:ring-accent focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-offset-2 active:bg-accent-dark"
     :class="{ 'rounded-btn': isRounded, 'outlined-btn': isOutlined }"
   >
     <slot></slot>

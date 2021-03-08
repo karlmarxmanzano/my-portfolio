@@ -27,7 +27,7 @@ module.exports = {
           light: '#6B7280',
           DEFAULT: '#6B7280',
           dark: '#6B7280',
-        },
+        }
       }
     }
   },

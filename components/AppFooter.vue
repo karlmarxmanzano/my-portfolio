@@ -5,7 +5,7 @@
     </div>
 
     <div class="bg-primary-dark">
-      <div class="text-blue-100 max-w-7xl mx-auto">
+      <div class="text-blue-100 max-w-5xl mx-auto">
         <div class="grid grid-cols-3 gap-x-8 py-10">
           <Logo />
 
