@@ -1,12 +1,12 @@
 <template>
-  <div class="grid grid-cols-2 gap-x-16">
-    <div class="flex flex-col justify-center space-y-4" :class="{'reverse-info': reverse}">
-      <div>
+  <div class="grid grid-flow-row md:grid-flow-col md:grid-cols-2 md:gap-x-8 lg:gap-x-16">
+    <div class="flex flex-col justify-center space-y-4 order-2 md:order-1 mt-6 sm:mt-10 md:mt-0" :class="{'reverse-info': reverse}">
+      <div :class="{'mt-2': !reverse}">
         <div class="text-primary uppercase font-medium tracking-widest text-sm dark:text-accent">Featured Project</div>
         <div class="font-bold text-3xl dark:text-blue-100">Trello Clone</div>
       </div>
 
-      <div class="text-sm text-light md:w-4/5 dark:text-light-light">
+      <div class="text-sm text-light lg:w-4/5 dark:text-light-light">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sed suscipit libero voluptatibus quos. Accusamus officia, est obcaecati tempore vitae adipisci consectetur magni, atque quas ex omnis quasi id sint.
       </div>
 
@@ -24,7 +24,7 @@
       </div>
     </div>
 
-    <div :class="{'reverse-img': reverse}">
+    <div class="order-1 md:order-2" :class="{'reverse-img': reverse}">
       <img class="img-shadow" :class="{'shadow-reverse': reverse}" src="~/assets/images/img-placeholder.jpg" alt="">
     </div>
   </div>

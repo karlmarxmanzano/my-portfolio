@@ -9,7 +9,7 @@
       </div>
 
       <div
-        class="w-14 h-8 flex items-center rounded-full p-1 duration-300 ease-in-out bg-night-light dark:bg-primary-light"
+        class="w-14 h-8 flex items-center rounded-full p-1 cursor-pointer duration-300 ease-in-out bg-night-light dark:bg-primary-light"
         :class="{'bg-primary-light': toggleActive, 'bg-night-light': !toggleActive}"
       >
         <div class="bg-white w-7 h-7 rounded-full shadow-md transform duration-300 ease-in-out" :class="{ 'translate-x-5': toggleActive}"></div>

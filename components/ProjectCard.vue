@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="bg-primary-light border-0 rounded-md h-72 w-fill px-5 py-4 flex flex-col cursor-pointer transform transition hover:-translate-y-0.5 dark:bg-night-light">
+    <div class="bg-primary-light border-0 rounded-md h-64 sm:h-72 w-fill px-5 py-4 flex flex-col cursor-pointer transform transition hover:-translate-y-0.5 dark:bg-night-light">
       <div class="flex gap-x-2 py-2 h-1/6 text-gray-900">
         <div class="locked h-5 w-5">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M5 9V7a5 5 0 0110 0v2a2 2 0 012 2v5a2 2 0 01-2 2H5a2 2 0 01-2-2v-5a2 2 0 012-2zm8-2v2H7V7a3 3 0 016 0z" clip-rule="evenodd" /></svg>

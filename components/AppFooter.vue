@@ -5,8 +5,8 @@
     </div>
 
     <div class="bg-primary-dark dark:bg-night-dark">
-      <div class="text-blue-100 max-w-5xl mx-auto">
-        <div class="grid grid-cols-3 gap-x-8 py-10">
+      <div class="text-blue-100 px-6 sm:max-w-sm lg:max-w-5xl mx-auto">
+        <div class="grid grid-flow-row md:grid-cols-3 gap-y-6 gap-x-8 py-10">
           <Logo />
 
           <div>

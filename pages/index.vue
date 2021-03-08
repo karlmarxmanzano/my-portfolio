@@ -1,59 +1,48 @@
 <template>
   <div>
-    <div class="max-w-5xl mx-auto py-6 flex flex-col justify-center">
-      <div class="flex flex-col items-start justify-center min-h-screen py-28">
-        <div class="text-5xl mb-4">👋</div>
+    <div class="px-6 sm:px-0 sm:max-w-sm md:max-w-2xl lg:max-w-4xl xl:max-w-5xl mx-auto flex flex-col justify-center">
+      <div class="relative flex flex-col justify-center min-h-screen">
+        <div class="text-4xl lg:text-5xl mb-4">👋</div>
 
-        <h1 class="text-7xl font-bold mb-8 dark:text-blue-100">I can make your ideas real in <span class="text-primary dark:text-accent">the web!</span></h1>
+        <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold mb-8 dark:text-blue-100">I can make your ideas real in <br class="block sm:hidden"> <span class="text-primary dark:text-accent">the web!</span></h1>
 
-        <p class="text-base text-light w-6/12 text-break mb-8 dark:text-light-light">
-          I'm a web developer based in Philippines Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus hic aut voluptate esse nobis amet eaque atque minus quo vel maxime sunt, soluta, iusto corporis.
+        <p class="text-sm sm:text-base text-light md:w-6/12 text-break mb-8 dark:text-light-light">
+          I'm a web developer based in Philippines Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </p>
 
         <call-to-action :is-rounded="true" class=" self-start">Get in touch</call-to-action>
 
-        <div class="w-10 h-1 absolute bottom-24 right-2/4">
-          <div class="dark:hidden">
-            <svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg" width="29" height="55" viewBox="0 0 29 55"><g transform="translate(-421 -510)"><g transform="translate(421 510)" fill="none" stroke="#192734" stroke-width="3"><rect width="29" height="55" rx="14.5" stroke="none"/><rect x="1.5" y="1.5" width="26" height="52" rx="13" fill="none"/></g><circle cx="7.5" cy="7.5" r="7.5" transform="translate(428 516)" fill="#192734"/></g></svg>
-          </div>
-
-          <div class="hidden dark:block">
-            <svg class="animate-bounce" xmlns="http://www.w3.org/2000/svg" width="30" height="55" viewBox="0 0 30 55"><g transform="translate(-421 -510)"><g transform="translate(421 510)" fill="none" stroke="#c5e3ff" stroke-width="5"><rect width="30" height="55" rx="15" stroke="none"/><rect x="2.5" y="2.5" width="25" height="50" rx="12.5" fill="none"/></g><circle cx="6" cy="6" r="6" transform="translate(430 521)" fill="#c5e3ff"/></g></svg>
-          </div>
-        </div>
 
       </div>
     </div>
 
-    <app-section title="Featured Projects">
-      <featured-project class="mb-20"></featured-project>
+    <app-section class="space-y-10 md:space-y-16" title="Featured Projects">
+      <featured-project></featured-project>
       <featured-project :reverse="true"></featured-project>
     </app-section>
 
     <app-section title="About Me">
-      <div class="grid grid-cols-2 gap-x-16">
-        <div>
+      <div class="grid grid-flow-row md:grid-flow-col lg:grid-cols-2 gap-x-16">
+        <div class="mb-6 mt-4 sm:mb-5 lg:mb-0">
           <img src="~/assets/images/img-placeholder.jpg" alt="" style="box-shadow: -10px -10px 0 #E3B341;">
         </div>
 
-        <div class="flex flex-col justify-center dark:text-light-light">
-          <p class="mb-6">Hi! I am Karl, a web developer based in the Philippines. Mabuhay!</p>
+        <div class="flex flex-col space-y-4 justify-center text-sm text-night-dark dark:text-light-light">
+          <p>Hi! I am Karl, a web developer based in the Philippines. Mabuhay!</p>
 
-          <p class="mb-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed porro, culpa delectus fugiat eveniet harum totam obcaecati eligendi magnam, provident quod sunt repellendus aut consectetur aliquam dolorem ad dolores.</p>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed porro, culpa delectus fugiat eveniet harum totam obcaecati eligendi magnam, provident quod sunt repellendus aut consectetur aliquam dolorem ad dolores.</p>
 
-          <p class="">Let's work together! Download <a href="#" class="text-primary rounded border border-dashed border-primary-light cursor-pointer py-1 px-2 ml-1 hover:bg-primary hover:text-white transition-all">resume</a></p>
+          <p>Let's work together! <br class="block sm:hidden">Download <a href="#" class="text-primary rounded border border-dashed border-primary-light cursor-pointer py-1 px-2 ml-1 leading-10 sm:leading-normal hover:bg-primary hover:text-white transition-all">resume</a></p>
         </div>
       </div>
     </app-section>
 
     <app-section title="Other Significant Projects">
-      <div class="grid grid-cols-3 gap-3">
-        <project-card></project-card>
-        <project-card></project-card>
-        <project-card></project-card>
-        <project-card></project-card>
-        <project-card></project-card>
-        <project-card></project-card>
+      <!-- <div class="grid grid-flow-row md:grid-flow-col md:grid-cols-2 lg:grid-cols-3 gap-3"> -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+        <div class="col-span-1" v-for="index in 6" :key="index">
+          <project-card></project-card>
+        </div>
       </div>
     </app-section>
   </div>

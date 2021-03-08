@@ -1,6 +1,8 @@
 <template>
-  <div class="text-base color tracking-wide">
-    <slot></slot>
+  <div>
+    <p class="text-sm lg:text-base text-light-light tracking-wide">
+      <slot></slot>
+    </p>
   </div>
 </template>
 
@@ -11,7 +13,4 @@ export default {
 </script>
 
 <style>
-  .color {
-    color: #C5E3FF;
-  }
 </style>
